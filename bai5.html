@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function max(x,y,z) {
+        if(x>y && x>z){
+            return x;
+        }else if(y>x && y>z){
+            return y
+        }else if(z>x && z>y){
+            return z;
+        }
+    }
+
+    let a = Number(prompt("Nhập vào số thứ 1"));
+    let b = Number(prompt("Nhập vào số thứ 2"));
+    let c = Number(prompt("Nhập vào số thứ 3"));
+    console.log(max(a,b,c));
+</script>
+</body>
+</html>
